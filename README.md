@@ -1,0 +1,1 @@
+A curated collection of data solutions, consulting frameworks, and solution accelerators designed to help organizations leverage data effectively. This repository includes reusable templates, best-practice guides, and ready-to-deploy accelerators that streamline analytics, data engineering, and business intelligence initiatives.
