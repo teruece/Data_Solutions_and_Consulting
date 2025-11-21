@@ -2,11 +2,11 @@
 
 This solution accelerator provides a unified data foundation with integrated data architecture leveraging Microsoft Fabric, OneLake, Microsoft Purview, and Azure Databricks to deliver a unified, integrated, and governed analytics platform.
 
-Built with principles of [medallion lakehouse architecture](https://learn.microsoft.com/en-us/fabric/onelake/onelake-medallion-lakehouse-architecture), the solution accelerator supports data mesh concepts with a sample implementation. It provides domain schemas and sample data as a framework for shared domains (customer, product), finance, and sales across multiple channels. You can easily adopt the framework and update the domain models with your own. The solution seamlessly integrates sales channel data hosted in Azure Databricks, utilizing Fabric's data mirroring and shortcut to bring this data into the gold tier for unified analytics and reporting. Pre-built Power BI dashboards showcase advanced sales analytics. Advanced data governance is powered by Microsoft Purview, ensuring compliance and transparency.
+Built with principles of [medallion lakehouse architecture](https://learn.microsoft.com/en-us/fabric/onelake/onelake-medallion-lakehouse-architecture), the solution accelerator supports data mesh concepts with a sample implementation. It provides domain schemas and sample data as a framework for shared domains (customer, product), finance, and sales across multiple channels. You can easily adopt my framework and update the domain models with your own. The solution seamlessly integrates sales channel data hosted in Azure Databricks, utilizing Fabric's data mirroring and shortcut to bring this data into the gold tier for unified analytics and reporting. Pre-built Power BI dashboards showcase advanced sales analytics. Advanced data governance is powered by Microsoft Purview, ensuring compliance and transparency.
 
-This solution accelerator demonstrates how organizations can unify, govern, and analyze data across multiple domains and platforms using modern lakehouse architecture and robust governance, enabling rapid development of analytics solutions for diverse business needs.
+My solution accelerator demonstrates how organizations can unify, govern, and analyze data across multiple domains and platforms using modern lakehouse architecture and robust governance, enabling rapid development of analytics solutions for diverse business needs.
 
-We have built flexibility and options so that you do not have to provision all three platforms (Microsoft Fabric, Microsoft Purview, and Azure Databricks) all at once. Please see details in the Solution Overview section below for more details.
+I have built flexibility and options so that you do not have to provision all three platforms (Microsoft Fabric, Microsoft Purview, and Azure Databricks) all at once. Please see details in the Solution Overview section below for more details.
 
 **Key use cases include:**
 
@@ -28,7 +28,7 @@ We have built flexibility and options so that you do not have to provision all t
 <h2><img src="./docs/images/readme/solution-overview.png" width="48" />
 Solution overview
 </h2>
-We have built a flexible and configurable architecture with plug-and-play options, providing you with four architecture choices. You can deploy any of the following four architectures based on your organizational needs:
+I have built a flexible and configurable architecture with plug-and-play options, providing you with four architecture choices. You can deploy any of the following four architectures based on your organizational needs:
 
 
 1. **Core Medallion Architecture in Microsoft Fabric only**
