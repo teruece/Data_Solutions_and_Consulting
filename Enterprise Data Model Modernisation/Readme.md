@@ -10,18 +10,28 @@ The Enterprise Data Model Modernisation at Maximus UK was a strategic programme 
 ## Core objectives
 
 • Build a single source of truth (SSOT) for enterprise KPIs and events.
+
 • Replace ad-hoc tables and Excel-driven joins with well-documented star-schema models.
+
 • Operationalise data quality checks and lineage to improve trust.
+
 • Produce production-ready views (BigQuery / cloud warehouse) and a semantic layer consumable by Power BI.
+
 • Prepare datasets for downstream AI/ML experiments (consistent keys, timestamps, completeness).
+
 
 ## Project scope
 
 Included data domains:
+
 • Workforce & people events (hires, leavers, role changes)
+
 • Operational events (case events, outcomes, SLA timestamps)
+
 • Product / service usage metrics
+
 • Financial/contract metrics required for enterprise reporting
+
 
 Excluded: one-off legacy systems put on an archival cadence unless critical for KPI traceability.
 
