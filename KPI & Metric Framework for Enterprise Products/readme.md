@@ -39,69 +39,123 @@ Excluded: Tactical, non-standardised operational metrics used only temporarily f
 ## Phased Step-By-Step Approach
 
 PHASE 0 — Foundation & Governance Setup
+
 • Identify KPI owners, data stewards and approval governance.
+
 • Agree the purpose, scope, retention rules and change-control process.
+
 • Define acceptance criteria for a KPI to be approved (accuracy, reproducibility, data quality).
+
 • Deliverables: Governance charter, RACI, prioritised KPI backlog.
 
+
 PHASE 1 — Discovery & Current-State Assessment
+
 • Catalogue existing KPI definitions across departments, dashboards and SQL logic.
+
 • Identify conflicting calculations, missing documentation and manual workarounds.
+
 • Profile underlying datasets: completeness, timing, granularity issues impacting metric reliability.
+
 • Map downstream consumers (BI dashboards, operational tools, leadership reports).
+
 • Deliverables: Discovery log, duplicate/variant KPIs list, current-state lineage map.
 
+
 PHASE 2 — Business Definition & Alignment Workshops
+
 • Run workshops with business leads to clarify meaning, use cases and intended decision value.
+
 • Define business logic: inclusion/exclusion rules, grain, filters, windows, time periods.
+
 • Create draft KPI definitions with diagrams, examples and edge-case handling.
+
 • Resolve disagreements through structured comparison and example reconciliation.
+
 • Deliverables: KPI definition sheets, business logic documentation, approval notes.
 
+
 PHASE 3 — Technical Specification & SQL Logic Development
+
 • Convert definitions into technical specifications:
 
+
 * Required tables
+
 * Required joins
+  
 * Date/period logic
+  
 * Window/aggregation logic
+  
 * Denominator/numerator rules
+  
   • Develop validated SQL for each KPI in the warehouse (BigQuery or equivalent).
+
   • Create reference tables (date dimension, status mapping, events).
+  
   • Perform reconciliation with historic reports; ensure results match within tolerance.
+  
   • Deliverables: Technical spec pack, SQL scripts, reconciliation results.
+  
 
 PHASE 4 — Metric Modelling & Semantic Layer Build
+
 • Build metric-level views (dbt models or SQL views) for production use.
+
 • Apply naming standards, metadata tags and lineage mapping.
+
 • Add automated tests:
 
 * Non-negative values
+  
 * Freshness checks
+  
 * Null thresholds
+  
 * Consistency across periods
+  
   • Publish metrics to a semantic layer for Power BI / Looker consumption.
+
   • Deliverables: Metric marts, semantic layer dataset, automated tests.
 
+
 PHASE 5 — Dashboard Integration & Uplift
+
 • Refactor Power BI dashboards to use the new KPI semantic model.
+
 • Add drill-downs and slice-by dimensions (team, region, cohort, time).
+
 • Ensure role-based access is applied.
+
 • Validate results with stakeholders before replacing legacy dashboards.
+
 • Deliverables: Updated dashboards, validation evidence, user acceptance sign-off.
 
+
 PHASE 6 — Training, Documentation & Rollout
+
 • Create documentation: definitions, logic, query examples, change control.
+
 • Run training sessions for analysts, PMs, operations leads and leadership teams.
+
 • Provide cheat sheets for correct interpretation and usage.
+
 • Deliverables: Glossary, user guides, training decks, KPI catalogue.
 
+
 PHASE 7 — Ongoing Governance & Continuous Improvement
+
 • Monthly governance meetings to review new KPI requests and proposed changes.
+
 • Monitor data quality metrics and escalate issues to data owners.
+
 • Incorporate new product or process changes into KPIs.
+
 • Maintain version control to track revisions and prevent metric drift.
+
 • Deliverables: KPI change log, quality dashboard, version-controlled glossary.
+
 
 
 
