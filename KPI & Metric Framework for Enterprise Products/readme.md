@@ -12,12 +12,19 @@ The programme established a unified methodology for defining, calculating, gover
 ## Core Objectives
 
 • Standardise KPI definitions across all business units and product teams.
+
 • Translate business concepts into precise, production-ready metric logic.
+
 • Create a Single Source of Truth (SSOT) for all metrics used in dashboards and reporting.
+
 • Align stakeholders (Product, Operations, HR, Finance) around consistent measurement.
+
 • Reduce manual interpretation and conflicting reports by embedding governance and documentation.
+
 • Build SQL-based metric views and a semantic layer consumable by Power BI and BI tools.
+
 • Ensure KPI logic is AI-ready — complete, reproducible and historically consistent.
+
 
 ## Scope
 
