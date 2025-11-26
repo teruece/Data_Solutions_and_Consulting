@@ -1,5 +1,8 @@
 ## Enterprise Data Model Modernisation — Maximus UK
 
+
+Led Enterprise Data Model Modernisation at Maximus UK — designed and implemented production-grade dimensional models, automated data quality and semantic layers, and reduced reporting discrepancies while enabling AI-ready datasets for cross-functional analytics.
+
 ## Project description
 
 The Enterprise Data Model Modernisation at Maximus UK was a strategic programme to replace fragmented, inconsistent reporting datasets with a single, scalable, production-grade analytical data model. The objective was to create a reusable, documented set of dimensional models and production SQL views that power leadership reporting, product analytics, operational dashboards, and are AI/ML-ready. The programme focused on improving data quality, reducing engineer/analyst rework, shortening time-to-insight, and enabling governed self-service analytics across HR, service delivery and operations teams.
@@ -75,24 +78,24 @@ PHASE 8 — Operate & Continuous Improvement
 • Iteration: Incorporate new product events and feedback; promote changes via a controlled release process.
 • Deliverables: Operational runbook, monitoring dashboards, cadence schedule.
 
-## Key artifacts & examples to reference in interviews
+## Key artifacts 
 
 • KPI glossary: precise calculation for each KPI (SQL pseudo-code).
 • dbt model hierarchy: staging → marts → semantic_views.
-• Example SQL view for a fact table (showing grain, joins, window functions).
-• Data quality test suite (e.g., uniqueness of user_id per period, null thresholds).
+• SQL view for a fact table (showing grain, joins, window functions).
+• Data quality test suite (uniqueness of user_id per period, null thresholds, etc.).
 • ER diagrams and partitioning strategy notes.
 • Dashboard before/after screenshots and adoption metrics.
 
 ## Roles & responsibilities (example)
 
-• Senior Data Analyst (you): Lead model design, KPI definitions, validation, stakeholder liaison, semantic layer design, and dashboard refactor.
+• Senior Data Analyst: Lead model design, KPI definitions, validation, stakeholder liaison, semantic layer design, and dashboard refactor.
 • Data Engineers: Implement and optimise pipelines, set up orchestration, handle infra and performance.
 • BI Developer/Analyst: Dashboard development and UX.
 • Product Manager / Business Owner: Define business requirements, accept KPIs.
 • Data Governance / Compliance: Approve data contracts and retention policies.
 
-## Success metrics (how to measure impact)
+## Success metricss
 
 • Accuracy: Reduction in KPI reconciliation issues vs legacy reports (target: 90%+ reconciliation within tolerance).
 • Freshness: Time from event ingestion to availability in marts (target SLA e.g., <2 hours for near-real-time domains).
@@ -107,22 +110,4 @@ PHASE 8 — Operate & Continuous Improvement
 • Source system changes → mitigate via schema-change alerts and data contracts.
 • Adoption resistance → mitigate with change champions, training, and providing “easy wins” dashboards.
 
-## Suggested interview talking points (how to present it)
-
-• Emphasise stakeholder collaboration: highlight workshops you ran to align KPIs.
-• Quantify impact: use percentages/time saved if available (e.g., reduced reporting errors by X%, shortened time-to-insight by Y hours).
-• Show technical ownership: describe one or two SQL snippets or data tests you authored.
-• Demonstrate governance thinking: mention lineage, data contracts and QA automation.
-• Note AI-readiness: highlight standardized keys, feature-ready tables and proven quality thresholds.
-
-## Impact statement (one-liner for CV / LinkedIn)
-
-Led Enterprise Data Model Modernisation at Maximus UK — designed and implemented production-grade dimensional models, automated data quality and semantic layers, and reduced reporting discrepancies while enabling AI-ready datasets for cross-functional analytics.
-
----
-
-If you’d like, I can:
-• Convert one of the project phases into a STAR interview answer.
-• Produce an example dbt model file or SQL view for a fact table (event-level) and a sample data test.
-• Turn the impact statement into a 2-line LinkedIn summary.
 
