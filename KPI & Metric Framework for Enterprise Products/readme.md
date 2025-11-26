@@ -29,10 +29,15 @@ The programme established a unified methodology for defining, calculating, gover
 ## Scope
 
 Included KPI domains:
+
 • People Analytics (Attrition, Hiring Velocity, Absence, Tenure)
+
 • Operational Performance (Case Volumes, SLA Compliance, Time-to-Outcome)
+
 • Service/Product Metrics (Digital adoption, User engagement, Process throughput)
+
 • Contract & Financial KPIs (Performance thresholds, Payment triggers)
+
 
 Excluded: Tactical, non-standardised operational metrics used only temporarily for local processes.
 
